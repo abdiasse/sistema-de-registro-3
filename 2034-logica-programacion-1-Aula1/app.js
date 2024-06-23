@@ -1,8 +1,10 @@
-let numeroSecreto= 6;
-let numeroUsuario = prompt("Me indicas un numero por favor:");
+alert('¡Bienvenido a nuestro sitio web!');
+let nombre = "Lua";
+let edad = 25;
+let numeroDeVentas = 50;
+let saldoDisponible = 1000;
+alert('¡Error! Preencha todos los campos');
+let mensajeDeError = '¡Error! Preencha todos los campos';
+alert(mensajeDeError);
 
-console.log(numeroUsuario);
-
-if (numeroUsuario == numeroSecreto){
-alert('acertaste el numero');
-}
+let nombre = prompt('Digite su nombre');
